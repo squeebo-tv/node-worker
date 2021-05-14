@@ -1,0 +1,18 @@
+{
+  "name": "node-worker-example",
+  "version": "0.1.0",
+  "description": "Node.js Worker Example",
+  "author": "Chris Esquibel",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "form-data": "^3.0.0"
+  },
+  "devDependencies": {}
+}

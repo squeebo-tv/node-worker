@@ -1,0 +1,6 @@
+curl --location --request POST 'http://localhost:8080/csv' \
+--header 'Content-Type: application/x-www-form-urlencoded' \
+--data-urlencode 'csv=key1,key2,key3,key4
+valueA1,valueA2,valueA3,valueA4
+valueB1,valueB2,valueB3,valueB4
+valueC1,valueC2,valueC3,valueC4'
